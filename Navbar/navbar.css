@@ -1,0 +1,37 @@
+.navbar-brand {
+  font-size: 1.5em;
+  font-weight: 600;
+  font-family: cursive;
+}
+nav{
+  background: linear-gradient(110deg, #200303 60%, #03232b 60%);
+}
+.rounded-pill {
+  animation: rotation 2s infinite linear;
+  box-shadow: 2px 6px 11px 7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 6px 11px 7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 6px 11px 7px rgba(0, 0, 0, 0.75);
+  border: 1px solid rgb(0, 0, 0);
+}
+
+@keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+ul li{
+  font-size: 1.3em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600; 
+}
+a{
+  color: #bdb3b3 !important;
+  list-style: none !important;
+}
+a:hover{
+  color: #fff !important;
+  text-decoration: underline;
+}
